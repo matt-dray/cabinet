@@ -20,6 +20,15 @@ knitr::opts_chunk$set(
 
 The `cabinet_cat()` function tells you if the provided name belongs to a Cabinet Office cat.
 
+Install and load with:
+
+```{r}
+# install.packages("remotes")
+# remotes::install_github("matt-dray/cabinet")
+
+library(cabinet)
+```
+
 # Examples
 
 ## Cabinet Office cats
@@ -42,6 +51,6 @@ cabinet_cat("Larry")
 
 Other cat names will not be successful.
 
-``` r
+```{r}
 cabinet_cat("Garfield")
 ```
