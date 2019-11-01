@@ -19,3 +19,5 @@ Suggests:
 VignetteBuilder: knitr
 Imports: 
     glue
+URL: https://github.com/matt-dray/cabinet
+BugReports: https://github.com/matt-dray/cabinet/issues
