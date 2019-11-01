@@ -12,15 +12,15 @@ cabinet_cat <- function(name) {
 
   if (name %in% c("Ossie", "Evie")) {
 
-    print(glue::glue("{name} is a good Cabinet Office kitty."))
+    glue::glue("{name} is a good Cabinet Office kitty.")
 
   } else if (name %in% c("Palmerston", "Larry", "Gladstone")) {
 
-    print(glue::glue("{name} isn't a Cabinet Office cat!"))
+    glue::glue("{name} isn't a Cabinet Office cat!")
 
   } else {
 
-    print("You've much to learn about government cats.")
+    cat("You've much to learn about government cats.")
 
   }
 
