@@ -9,6 +9,14 @@
 A package created for a Cabinet Office Coffee & Coding
     session that doesn't do anything useful in particular.
 }
+\seealso{
+Useful links:
+\itemize{
+  \item \url{https://github.com/matt-dray/cabinet}
+  \item Report bugs at \url{https://github.com/matt-dray/cabinet/issues}
+}
+
+}
 \author{
 \strong{Maintainer}: Matt Dray \email{matthew.dray@digital.cabinet-office.gov.uk}
 

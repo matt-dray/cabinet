@@ -39,7 +39,7 @@ Ossie and Evie are Cabinet Office cats.
 cabinet_cat("Ossie")
 ```
 
-# Non-Cabinet-Office cats
+## Non-Cabinet-Office cats
 
 Larry, Gladstone and Palmerston live in other departments.
 
