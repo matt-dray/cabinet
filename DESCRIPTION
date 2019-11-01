@@ -1,0 +1,21 @@
+Package: cabinet
+Title: A Package To Show How To Create Packages
+Version: 0.0.0.9000
+Authors@R:
+    person(given = "Matt",
+           family = "Dray",
+           role = c("aut", "cre"),
+           email = "matthew.dray@digital.cabinet-office.gov.uk")
+Description: A package created for a Cabinet Office Coffee & Coding
+    session that doesn't do anything useful in particular.
+License: CC0
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 6.1.1
+Suggests: 
+    knitr,
+    rmarkdown,
+    testthat
+VignetteBuilder: knitr
+Imports: 
+    glue

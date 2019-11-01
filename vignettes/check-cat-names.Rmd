@@ -1,0 +1,47 @@
+---
+title: "Check cat names"
+author: "Matt Dray"
+date: "`r Sys.Date()`"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{Vignette Title}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+```{r setup, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>"
+)
+```
+
+# The function
+
+The `cabinet_cat()` function tells you if the provided name belongs to a Cabinet Office cat.
+
+# Examples
+
+## Cabinet Office cats
+
+Ossie and Evie are Cabinet Office cats.
+
+```{r}
+cabinet_cat("Ossie")
+```
+
+# Non-Cabinet-Office cats
+
+Larry, Gladstone and Palmerston live in other departments.
+
+```{r}
+cabinet_cat("Larry")
+```
+
+## Other cats
+
+Other cat names will not be successful.
+
+``` r
+cabinet_cat("Garfield")
+```
