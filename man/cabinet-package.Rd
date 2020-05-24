@@ -4,21 +4,23 @@
 \name{cabinet-package}
 \alias{cabinet}
 \alias{cabinet-package}
-\title{cabinet: A Package To Show How To Create Packages}
+\title{cabinet: Identify Cats in the UK Cabinet Office}
 \description{
 A package created for a Cabinet Office Coffee & Coding
-    session that doesn't do anything useful in particular.
+    session to demonstrate the {usethis} and {devtools} packages
+    for creating your own package.
 }
 \seealso{
 Useful links:
 \itemize{
   \item \url{https://github.com/matt-dray/cabinet}
+  \item \url{https://matt-dray.github.io/cabinet/}
   \item Report bugs at \url{https://github.com/matt-dray/cabinet/issues}
 }
 
 }
 \author{
-\strong{Maintainer}: Matt Dray \email{matthew.dray@digital.cabinet-office.gov.uk}
+\strong{Maintainer}: Matt Dray \email{mwdray@gmail.com}
 
 }
 \keyword{internal}
