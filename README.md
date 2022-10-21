@@ -17,7 +17,7 @@ You can install {cabinet} from GitHub using the {remotes} package:
 
 ```
 install.packages("remotes")
-remotes::install_github("cabinet")
+remotes::install_github("matt-dray/cabinet")
 ```
 
 ## Example
